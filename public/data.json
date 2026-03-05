@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login page bug",
+    "description": "Users cannot log in with Google authentication.",
+    "customer": "Rahim Ahmed",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 1002,
+    "title": "Profile update error",
+    "description": "Profile picture upload fails on mobile devices.",
+    "customer": "Karim Uddin",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 1003,
+    "title": "Slow dashboard loading",
+    "description": "Dashboard takes more than 5 seconds to load.",
+    "customer": "Nusrat Jahan",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 1004,
+    "title": "Payment gateway issue",
+    "description": "Payment fails when using Visa cards.",
+    "customer": "Arif Hasan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 1005,
+    "title": "Search feature improvement",
+    "description": "Users want better filtering options in search.",
+    "customer": "Mim Akter",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 1006,
+    "title": "Email notification delay",
+    "description": "Emails are sent later than expected.",
+    "customer": "Tanvir Islam",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 1007,
+    "title": "Forgot password not working",
+    "description": "Reset password link is not sent to email.",
+    "customer": "Sadia Khan",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 1008,
+    "title": "UI alignment issue",
+    "description": "Buttons are misaligned on the settings page.",
+    "customer": "Jahid Hossain",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 1009,
+    "title": "API response error",
+    "description": "Products API sometimes returns empty data.",
+    "customer": "Farhana Rahman",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 1010,
+    "title": "Dark mode request",
+    "description": "Users requested a dark mode option.",
+    "customer": "Imran Hossain",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 1011,
+    "title": "Registration validation bug",
+    "description": "Phone number validation not working.",
+    "customer": "Tania Akter",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 1012,
+    "title": "Cart item duplication",
+    "description": "Items get duplicated when added quickly.",
+    "customer": "Mahmudul Hasan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 1013,
+    "title": "Image upload compression",
+    "description": "Images are not optimized after upload.",
+    "customer": "Rifat Ahmed",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 1014,
+    "title": "Admin panel access issue",
+    "description": "Admin cannot access user management page.",
+    "customer": "Shakil Khan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 1015,
+    "title": "Mobile responsiveness fix",
+    "description": "Homepage layout breaks on small screens.",
+    "customer": "Lamia Sultana",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  }
+]
