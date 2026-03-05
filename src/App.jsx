@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner"
 import CustomerTickets from "./components/CustomerTickets/CustomerTickets"
 import Navbar from "./components/Navbar/Navbar"
 import TicketProgress from "./components/TicketProgress/TicketProgress"
+import { toast } from "react-toastify";
 
 const ticketsPromise = fetch('data.json').then(res => res.json());
 
@@ -11,11 +12,13 @@ function App() {
   const [resolvedTasks, setResolvedTask] = useState([]);
 
   const handleAddTask = task => {
+    toast('Task added successfully')
     setPendingTasks([...pendingTasks, task])
   }
 
   const handleCompletedTask = task => {
-    const remaining = pendingTasks.filter(pTask => pTask.id !== pTask.id);
+    toast('Task completed successfully')
+    const remaining = pendingTasks.filter(pTask => pTask.id !== task.id);
     setResolvedTask([...resolvedTasks, task])
     setPendingTasks(remaining)
   }
