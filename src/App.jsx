@@ -12,8 +12,13 @@ function App() {
   const [resolvedTasks, setResolvedTask] = useState([]);
 
   const handleAddTask = task => {
-    toast('Task added successfully')
-    setPendingTasks([...pendingTasks, task])
+    const alreadyExist = pendingTasks.find(pending => pending.id === task.id);
+    if(!alreadyExist) {
+      toast('Task added successfully')
+      setPendingTasks([...pendingTasks, task])
+    } else {
+      toast('Already pending this task')
+    }
   }
 
   const handleCompletedTask = task => {
