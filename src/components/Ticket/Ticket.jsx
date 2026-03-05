@@ -5,7 +5,7 @@ const Ticket = ({ ticket, handleAddTask }) => {
         <div className="bg-white rounded p-5 cursor-pointer" onClick={() => handleAddTask(ticket)}>
             <div className="flex justify-between items-center">
                 <h2 className="text-lg text-[#001931] font-medium">{ticket.title}</h2>
-                <p className="btn">{ticket.status}</p>
+                <p className={` p-2 rounded-full ${ticket.status == 'Open' ?  'bg-[#02A53B] text-[#0B5E06]' : 'bg-[#F8F3B9] text-[#9C7700]'}`}>{ticket.status}</p>
             </div>
             <p className="text-base text-[#627382] mt-3 ">{ticket.description}</p>
             <div className="flex justify-between items-center mt-3">
